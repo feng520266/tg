@@ -24,7 +24,7 @@ BOT_TOKEN = os.environ["BOT_TOKEN"]
 BOT_USERNAME = os.environ["BOT_USERNAME"].lower()
 CONFIG_URL = os.environ.get(
     "CONFIG_URL",
-    "https://raw.githubusercontent.com/huangya777/tg/main/replies.json"
+    "https://raw.githubusercontent.com/feng520266/tg/refs/heads/main/replies.json"
 )
 TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
@@ -39,7 +39,7 @@ _last_user_reply = defaultdict(str)
 DEFAULT_REPLIES = {
     "keywords": {},
     "mentioned_or_replied": ["我在呢～", "你说？", "我听着呢！"],
-    "fallback": ["你好！我是小桃桃 🍑"]
+    "fallback": ["你好！我是小包子 🍑"]
 }
 
 _config_cache = None
